@@ -1,7 +1,9 @@
 %--------------------------------------------------------------------------
-% TO DO - notation in KS notes
+% TO DO - notation description here - for now see paper!
 %--------------------------------------------------------------------------
 % Krishna Somandepalli, Nov 2017
+% Paper citation
+% K. Somandepalli and S. Narayanan, "Reinforcing Self-expressive Representation with Constraint Propagation for Face Clustering in Movies," ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 4065-4069.
 %--------------------------------------------------------------------------
 % 
 function [C2, B, err_1, err_2, err_3] = cp_ssc(X, Y, affine, l)%,alpha,thr,maxIter)

@@ -1,14 +1,6 @@
 %--------------------------------------------------------------------------
-% This routine evaluates the ability of the proposed outlier detection
-% scheme
-%
-%
-% This corresponds to Figure 12 of the paper
-% "a geometric analysis of subspace clustering with outliers".
-%
-%
-%--------------------------------------------------------------------------
-% by Mahdi Soltanolkotabi and Emmanuel Candes.
+% this code runs all the simulation  experiments for the paper:
+% K. Somandepalli and S. Narayanan, "Reinforcing Self-expressive Representation with Constraint Propagation for Face Clustering in Movies," ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019, pp. 4065-4069.
 %--------------------------------------------------------------------------
 
 
@@ -21,8 +13,8 @@ rng(320)
 
 % cvx_solver sdpt3
 % cvx_quiet(true) ;
-dvals = [ 10]%, 15, 20, 25, 30, 35, 40, 45, 8, 6]     ;
-cn_vals = [0.8] %, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4] ;
+dvals = [ 10, 15, 20, 25, 30, 35, 40, 45, 8, 6]     ;
+cn_vals = [0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4] ;
 % 
 % C_out           = cell( 1 , length(dvals)*length(cn_vals) ) ;
 % F_out           = cell( 1 , length(dvals)*length(cn_vals) ) ;
